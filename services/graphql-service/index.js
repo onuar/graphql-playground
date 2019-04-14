@@ -1,7 +1,7 @@
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const { GraphQLSchema } = require('graphql');
-const { schema, QueryObjectType, MutationsType } = require('./schema/application.schema');
+const { QueryObjectType, MutationsType } = require('./schema/application.schema');
 const app = express();
 
 const rootValue = {
